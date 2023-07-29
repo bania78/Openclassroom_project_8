@@ -1,0 +1,34 @@
+[
+    {
+        "id": "0",
+        "title": "Page d'accueil d'une agence de voyage",
+        "cover": "./assets/projet_1.png",
+        "description": "",
+        "href": "https://bania78.github.io/Openclassroom_project_2/",
+        "tags": [
+            "HTML-CSS"
+        ]
+    },
+    {
+        "id": "1",
+        "title": "Site internet d'une designeuse d'intérieur",
+        "cover": "./assets/projet_2.png",
+        "description": "",
+        "href": "https://openclassroom-project-3.vercel.app/",
+        "tags": [
+            "HTML-CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Debbug et optimisation d'un site de photographe",
+        "cover": "./assets/projet_3.png",
+        "description": "",
+        "href": "https://bania78.github.io/Openclassroom_project_5/",
+        "tags": [
+            "HTML-CSS",
+            "JavaScript"
+        ]
+    }
+]
