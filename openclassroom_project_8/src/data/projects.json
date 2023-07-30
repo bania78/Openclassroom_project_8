@@ -30,5 +30,39 @@
             "HTML-CSS",
             "JavaScript"
         ]
+    },
+    {
+        "id": "3",
+        "title": "Application web de location immobilière",
+        "cover": "./assets/projet_4.png",
+        "description": "",
+        "href": "https://openclassroom-project-6-y87j-aq199mim4-bania78.vercel.app/",
+        "tags": [
+            "HTML",
+            "JavaScript",
+            "ReactJS",
+            "SCSS"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Back-end d'un site de notation de livres",
+        "cover": "./assets/projet_5.png",
+        "description": "",
+        "href": "https://openclassroom-project-7.vercel.app/",
+        "tags": [
+            "JavaScript",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Premier projet en HTML-CSS",
+        "cover": "./assets/projet_6.png",
+        "description": "",
+        "href": "https://bania78.github.io/perso/",
+        "tags": [
+            "HTML-CSS"
+        ]
     }
 ]

@@ -1,9 +1,16 @@
 .div_pres {
+    width: 100%;
+    background-color: rgb(40, 38, 38);
+}
+
+.div_content {
     margin: auto;
     text-align: center;
     width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.h2_pres {
+.h3_pres {
     font-weight: normal;
 }
