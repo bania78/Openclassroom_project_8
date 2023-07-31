@@ -21,3 +21,11 @@
     padding-bottom: 2px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .tag {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -21,8 +21,8 @@ function Caroussel({ projects }) {
         <div className="caroussel_div">
             { projects.map((project, id) => {
                 return (
-                    <a className='a_proj' href={project.href} target="blank">
-                        <img className='caroussel_img' style={{transform: `translate(-${index * 100}%)`}} key={id} alt="cover of the project" src={project.cover}></img>
+                    <a className='a_proj' key={id} href={project.href} target="blank">
+                        <img className='caroussel_img' style={{transform: `translate(-${index * 100}%)`}} alt="cover of the project" src={project.cover}></img>
                     </a>
                 )
             })

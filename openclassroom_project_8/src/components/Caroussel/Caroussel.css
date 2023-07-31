@@ -42,3 +42,10 @@
 .previous_button {
     left: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .caroussel_div {
+        display: none;
+    }
+}
+
