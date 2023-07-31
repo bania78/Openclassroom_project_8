@@ -1,0 +1,12 @@
+.cover_project {
+    height: 415px;
+    object-fit: cover;
+    width: 100%;
+    background-color: white;
+}
+
+.content_proj {
+    background-color: rgb(40, 38, 38);
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -6,6 +6,7 @@
     padding-block:10px;
     align-items:center;
     background-color: rgb(40, 38, 38);
+    height: 50px;
 }
 
 .ul_nav {
@@ -24,4 +25,8 @@
 
 .a_nav:hover {
     text-decoration: underline;
+}
+
+.logo_git {
+    height: 50px;
 }

@@ -1,12 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Accueil from './pages/Accueil';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import Project, { loader as projectLoader, } from './pages/Project/Project';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children: [
+      {
+        path: "",
+        element: <Accueil />,
+      },
+      {
+        path: "projects/:projectId",
+        element: <Project />,
+        loader: projectLoader,
+      }
+    ]
+
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

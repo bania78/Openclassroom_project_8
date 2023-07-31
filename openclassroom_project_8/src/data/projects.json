@@ -1,31 +1,42 @@
 [
     {
         "id": "0",
-        "title": "Page d'accueil d'une agence de voyage",
-        "cover": "./assets/projet_1.png",
-        "description": "",
-        "href": "https://bania78.github.io/Openclassroom_project_2/",
+        "title": "Premier projet en HTML-CSS",
+        "cover": "./assets/projet_6.png",
+        "description": [
+            "Ceci est mon premier projet Web. C'est un wiki d'une histoire que j'ai écrite dans l'univers de Pokémon.",
+            "N'ayant aucune compétence dans le développement Web, il a fallu que je me forme afin de pouvoir réaliser un travail en adéquation avec ce que j'avais en tête. J'ai donc appris les bases de l'HTML-CSS et je les ai mises en pratique dans ce projet.",
+            "Ce projet est toujours en cours de développement et pourrait même être refait intégralement en ReactJS dans un futur proche."
+        ],
+        "href": "https://bania78.github.io/perso/",
+        "code": "https://github.com/bania78/perso",
         "tags": [
             "HTML-CSS"
         ]
     },
     {
         "id": "1",
-        "title": "Site internet d'une designeuse d'intérieur",
-        "cover": "./assets/projet_2.png",
-        "description": "",
-        "href": "https://openclassroom-project-3.vercel.app/",
+        "title": "Page d'accueil d'une agence de voyage",
+        "cover": "./assets/projet_1.png",
+        "description": [
+            "Ce projet est le premier de ma formation Openclassrooms. Il consistait a créé la page d'accueil d'une agence de voyages en partant de 0 en HTML-CSS.",
+            "Ayant déjà quelques compétences dans ces langages au début de ma formation, je n'ai pas eu de grosses difficultés sur ce projet."
+        ],
+        "href": "https://bania78.github.io/Openclassroom_project_2/",
+        "code": "https://github.com/bania78/Openclassroom_project_2/",
         "tags": [
-            "HTML-CSS",
-            "JavaScript"
+            "HTML-CSS"
         ]
     },
     {
         "id": "2",
-        "title": "Debbug et optimisation d'un site de photographe",
-        "cover": "./assets/projet_3.png",
-        "description": "",
-        "href": "https://bania78.github.io/Openclassroom_project_5/",
+        "title": "Site internet d'une designeuse d'intérieur",
+        "cover": "./assets/projet_2.png",
+        "description": [
+            ""
+        ],
+        "href": "https://openclassroom-project-3.vercel.app/",
+        "code": "https://github.com/bania78/Openclassroom_project_3/",
         "tags": [
             "HTML-CSS",
             "JavaScript"
@@ -33,10 +44,27 @@
     },
     {
         "id": "3",
+        "title": "Debbug et optimisation d'un site de photographe",
+        "cover": "./assets/projet_3.png",
+        "description": [
+            ""
+        ],
+        "href": "https://bania78.github.io/Openclassroom_project_5/",
+        "code": "https://github.com/bania78/Openclassroom_project_5/",
+        "tags": [
+            "HTML-CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "4",
         "title": "Application web de location immobilière",
         "cover": "./assets/projet_4.png",
-        "description": "",
+        "description": [
+            ""
+        ],
         "href": "https://openclassroom-project-6-y87j-aq199mim4-bania78.vercel.app/",
+        "code": "https://github.com/bania78/Openclassroom_project_6/",
         "tags": [
             "HTML",
             "JavaScript",
@@ -45,24 +73,17 @@
         ]
     },
     {
-        "id": "4",
+        "id": "5",
         "title": "Back-end d'un site de notation de livres",
         "cover": "./assets/projet_5.png",
-        "description": "",
+        "description": [
+            ""
+        ],
         "href": "https://openclassroom-project-7.vercel.app/",
+        "code": "https://github.com/bania78/Openclassroom_project_7/",
         "tags": [
             "JavaScript",
             "MongoDB"
-        ]
-    },
-    {
-        "id": "5",
-        "title": "Premier projet en HTML-CSS",
-        "cover": "./assets/projet_6.png",
-        "description": "",
-        "href": "https://bania78.github.io/perso/",
-        "tags": [
-            "HTML-CSS"
         ]
     }
 ]

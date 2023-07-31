@@ -2,7 +2,7 @@ import './Title.css'
 
 function Title( {content} ) {
     return (
-        <div className='div_title'>
+        <div id={ content } className='div_title'>
             <h2 className='h2_title'>{content}</h2>
         </div>
     )
