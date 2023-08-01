@@ -14,3 +14,11 @@
     color: white;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .content_des {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}

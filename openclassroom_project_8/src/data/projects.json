@@ -33,7 +33,9 @@
         "title": "Site internet d'une designeuse d'intérieur",
         "cover": "./assets/projet_2.png",
         "description": [
-            ""
+            "Second projet de ma formation chez Openclassrooms, il avait pour but de nous enseigner les bases du Javascript pour créer une page web dynamique avec notamment un système de filtrage des images ou encore de login.",
+            "N'ayant aucune compétence en Javascript à ce moment-là, il m'a fallu travailler pour réussir à afficher les informations envoyées par le back-end et que les modifications s'effectuent sans avoir à rafraichir la page.",
+            "J'y suis finalement parvenu, notamment grâce au cours d'Openclassrooms sûr comment récupérer un élément d'une page web en Javascript, créant ainsi ma première page web dynamique en affichant les informations ou en les effaçant au fur et à mesure que je les recevais."
         ],
         "href": "https://openclassroom-project-3.vercel.app/",
         "code": "https://github.com/bania78/Openclassroom_project_3/",
@@ -47,7 +49,9 @@
         "title": "Debbug et optimisation d'un site de photographe",
         "cover": "./assets/projet_3.png",
         "description": [
-            ""
+            "Pour ce nouveau projet dans le cadre de ma formation chez Openclassrooms, l'objectif était, à partir d'une base de code, de débugger le site, ainsi que d'augmenter son SEO (Optimisation pour les moteurs de recherche).",
+            "N'étant pas familier au terme de SEO il a d'abord fallu que je me renseigne sur ce que c'était avant de suivre les cours Openclassrooms qui m'ont expliqué comment l'optimiser.",
+            "J'ai également recodé entièrement la galerie, initialement coder en Jquery, en Javascript afin d'optimiser son fonctionnement et la débugger par la même occasion."
         ],
         "href": "https://bania78.github.io/Openclassroom_project_5/",
         "code": "https://github.com/bania78/Openclassroom_project_5/",
@@ -61,7 +65,8 @@
         "title": "Application web de location immobilière",
         "cover": "./assets/projet_4.png",
         "description": [
-            ""
+            "Pour ce projet-ci, l'objectif était de créer une application web de location immobilière en ReactJS en partant de 0.",
+            "N'ayant que peu de compétences en ReactJs avant de commencer le projet je me suis rapidement retrouvé dans l'impasse et il m'a donc fallu suivre un bon nombre de cours sur la plateforme Openclassrooms notamment sur comment réutiliser ses composants."
         ],
         "href": "https://openclassroom-project-6-y87j-aq199mim4-bania78.vercel.app/",
         "code": "https://github.com/bania78/Openclassroom_project_6/",
@@ -77,7 +82,9 @@
         "title": "Back-end d'un site de notation de livres",
         "cover": "./assets/projet_5.png",
         "description": [
-            ""
+            "Pour le dernier projet de ma formation Openclassrooms je devais coder le back-end d'un site de notation de livre. Cela m'a permis de découvrir MongoDB et l'envers du décor d'un site web.",
+            "J'ai rencontré assez peu de problématique au cours de ce projet mais la principale fut la sauvegarde des images. Il fallait que je trouve un moyen de sauvegarder les images envoyées par l'utilisateur en les compressants pour pas qu'elles ne prennent trop de place et en supprimant celles qui devaient l'être en cas de modification ou de supression.",
+            "Après un peu de recherche multer m'apparut comme la solution la plus évidente à ce problème et me permit de répondre à toutes mes problématiques."
         ],
         "href": "https://openclassroom-project-7.vercel.app/",
         "code": "https://github.com/bania78/Openclassroom_project_7/",

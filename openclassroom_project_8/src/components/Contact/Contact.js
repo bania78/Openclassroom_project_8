@@ -21,19 +21,18 @@ function Contact () {
     return (
         <div className="contact">
             <h3>Mes coordonnées :</h3>
-            <p>louisbw78@gmail.com</p>
-            <p>+33 6 25 85 44 41</p>
+            <p><a className="mailto" href="mailto:louisbw78@gmail.com">louisbw78@gmail.com</a></p>
             <h3>Formulaire :</h3>
             {success && <p>Votre message à bien été envoyé</p>}
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Nom</label>
+            {!success && <form ref={form} onSubmit={sendEmail}>
+                <label htmlFor="name">Nom</label>
                 <input type="text" id="name" name="name" required></input>
-                <label>Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" id="email" name="email" required></input>
-                <label>Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" placeholder="Que souhaitez-vous dire ?" required></textarea>
                 <input className="submit" type="submit" value="Envoyer"></input>
-            </form>
+            </form>}
         </div>
     )
 }

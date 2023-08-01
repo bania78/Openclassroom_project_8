@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.mailto {
+    color: white;
+}
+
 form {
     width: 50%;
     text-align: left;
